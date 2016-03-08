@@ -1,3 +1,100 @@
 /*Custom css*/
 body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+
+#my_name{color: #fff; font-family: 'Fredericka the Great', cursive; font-size: 60px; }
+.page-header{font-size: 25px;}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+	
+}
+
+.red
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+.green
+{
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+}
+
+.yellow
+{
+	background-color: #F2CF66;
+	border-bottom: 5px solid #D1B358;
+	text-shadow: 0px -2px #D1B358;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+	.tictactoe_table {
+		/*border:1px solid #C0C0C0;*/
+		border:0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.tictactoe_table tr {
+			padding:5px;
+		height: 100px;
+
+	}
+	.tictactoe_table td {
+		border:1px solid #C0C0C0;
+		
+		padding:5px;
+		width : 100px;
+	}
+
+	.tictactoe_table tr td#one {border-top:none; border-left: none;}
+	/*
+	#two{}
+	#three
+	#four{}
+	#five{}
+	#six{}
+	#seven{}
+	#eight{}
+	#nine{}
+*/
