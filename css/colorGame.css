@@ -66,9 +66,13 @@ button {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	outline: none;
+	cursor: pointer; cursor: hand;
 }
 
 button:hover {
 	color: white;
 	background: steelblue;
 }
+
+#home{background: steelblue; padding: 10px; color: #fff; margin-top: 30px;}
+.center{text-align: center;}

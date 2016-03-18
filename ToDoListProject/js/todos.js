@@ -22,7 +22,7 @@ $("input[type='text']").keypress(function(event){
 	$(this).val("");
 	// create new li to append
 
-     $("ul").append("<li><span><i class = 'fa-trash'></i></span> "+ todoText + "</li>");
+     $("ul").append("<li><span><i class = 'fa fa-trash'></i></span> "+ todoText + "</li>");
 
 	}
 
